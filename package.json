@@ -1,0 +1,19 @@
+{
+  "name": "leaflet-roughcanvas",
+  "version": "1.0.0",
+  "description": "create map with a hand-drawn, sketchy, appearance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup-config.js",
+    "watch": "rollup -w -c rollup-config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "roughjs": "^2.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.56.5"
+  }
+}
