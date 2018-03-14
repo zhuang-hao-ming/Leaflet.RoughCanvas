@@ -41,7 +41,7 @@ Include the script after leaflet.js.
         mymap.fitBounds(polyline.getBounds());
 ```
 
-![polyline](./test/images/polyline.jpg)
+![polyline](./examples/images/polyline.jpg)
 
 
 ### polygon
@@ -61,7 +61,7 @@ Include the script after leaflet.js.
         mymap.fitBounds(polygon.getBounds());
 ```
 
-![polygon](./test/images/polygon.jpg)
+![polygon](./examples/images/polygon.jpg)
 
 ### geojson
 
@@ -92,7 +92,7 @@ Include the script after leaflet.js.
         }).addTo(mymap);
 ```
 
-![geojson_china](./test/images/geojson_china.jpg)
+![geojson_china](./examples/images/geojson_china.jpg)
 
 
 ## Examples
