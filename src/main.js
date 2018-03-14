@@ -6,8 +6,8 @@ import rough from '../node_modules/roughjs/src/index'
 var RoughCanvas = L.Canvas.extend({
 	_initContainer: function () {
 
-		L.Canvas.prototype._initContainer.call(this)
-		this._rc = rough.canvas(this._container)
+		L.Canvas.prototype._initContainer.call(this);
+		this._rc = rough.canvas(this._container);
 	},
 
 	_updatePoly: function (layer, closed) {
@@ -25,13 +25,13 @@ var RoughCanvas = L.Canvas.extend({
 		this._drawnLayers[layer._leaflet_id] = layer;
 
 
-		//------------------------ rough sketch begin
+		
 
 		var svgPathStr = L.SVG.pointsToPath(parts, closed);
-		console.log(closed)
+		console.log(closed);
 
 		var options = layer.options;
-		var pathOption = {}
+		var pathOption = {};
 
 
 		pathOption.roughness = options.roughness || 1;
@@ -47,17 +47,16 @@ var RoughCanvas = L.Canvas.extend({
 			// pathOption.simplification = options.simplification || 1;
 		}
 		pathOption.curveStepCount = options.curveStepCount || 9;
-		
-		console.log(pathOption)
-		this._rc.path(svgPathStr, pathOption)
+				
+		this._rc.path(svgPathStr, pathOption);
 
-		// //----------------------------- rough sketch end
+		
 
 	},
 })
 
-L.Canvas.RoughCanvas = RoughCanvas
+L.Canvas.RoughCanvas = RoughCanvas;
 
 L.Canvas.roughCanvas = () => {
-	return new RoughCanvas()
+	return new RoughCanvas();
 }

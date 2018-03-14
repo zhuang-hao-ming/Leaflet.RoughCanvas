@@ -8,12 +8,23 @@
     "build": "rollup -c rollup-config.js",
     "watch": "rollup -w -c rollup-config.js"
   },
-  "author": "",
+  "author": "haoming",
   "license": "MIT",
   "dependencies": {
     "roughjs": "^2.0.0"
   },
   "devDependencies": {
     "rollup": "^0.56.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhuang-hao-ming/Leaflet.RoughCanvas.git"
+  },
+  "keywords": [
+    "map",
+    "hand-drawn",
+    "sketchy",
+    "render",
+    "plugin"    
+  ]
 }
