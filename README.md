@@ -101,6 +101,10 @@ Include the script after leaflet.js.
 
 ## Config
 
+You can pass in options in every method that accpets style options.
+
+The options are the same as those in [roughjs](https://github.com/pshihn/rough/wiki)
+
 ## License
 
 MIT
