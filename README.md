@@ -95,9 +95,9 @@ Include the script after leaflet.js.
 ![geojson_china](./examples/images/geojson_china.jpg)
 
 
-## Examples
+## Demo
 
-[Views examples here]()
+[Views Demo here](https://zhuang-hao-ming.github.io/Leaflet.RoughCanvas/)
 
 ## Config
 
